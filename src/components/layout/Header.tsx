@@ -2,6 +2,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { Image } from '@/components/ui/image';
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -30,8 +31,14 @@ export default function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
-
-            <span className="font-heading text-xl font-bold text-foreground group-hover:text-primary transition-colors">{"NewWings"}</span>
+            <Image
+              src="https://static.wixstatic.com/media/415bd8_bf56b998363340409a85b0a0c81e05ed~mv2.png"
+              alt="NewWings Logo"
+              width={40}
+              height={40}
+              className="w-10 h-10"
+            />
+            <span className="font-heading text-xl font-bold text-foreground group-hover:text-primary transition-colors">NewWings</span>
           </Link>
 
           {/* Desktop Navigation */}

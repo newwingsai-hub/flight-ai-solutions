@@ -178,10 +178,6 @@ export default function HomePage() {
           style={{ opacity: opacityHero }}
         >
           <div className="lg:col-span-8">
-            <AnimatedElement>
-
-            </AnimatedElement>
-
             <AnimatedElement delay={100}>
               <h1 className="font-heading text-6xl md:text-8xl lg:text-9xl font-bold leading-[0.9] tracking-tighter mb-8 text-white">
                 FLIGHT <br />

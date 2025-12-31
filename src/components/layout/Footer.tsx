@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Linkedin, Mail, Github } from 'lucide-react';
+import { Image } from '@/components/ui/image';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -11,15 +12,17 @@ export default function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-gradient-to-br from-primary to-light-blue rounded-lg flex items-center justify-center">
-                <svg className="w-6 h-6 text-primary-foreground" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
-              </div>
-              <span className="font-heading text-xl font-bold text-foreground">FlightAI</span>
+              <Image
+                src="https://static.wixstatic.com/media/415bd8_bf56b998363340409a85b0a0c81e05ed~mv2.png"
+                alt="NewWings Logo"
+                width={40}
+                height={40}
+                className="w-10 h-10"
+              />
+              <span className="font-heading text-xl font-bold text-foreground">NewWings</span>
             </div>
             <p className="font-paragraph text-sm text-foreground/60 leading-relaxed">
-              AI-powered flight optimization for sustainable aviation. A student innovation for the Conrad Challenge.
+              Intelligent flight optimization for sustainable aviation. A student innovation for the Conrad Challenge.
             </p>
           </div>
 
@@ -108,7 +111,7 @@ export default function Footer() {
         <div className="mt-12 pt-8 border-t border-primary/10">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="font-paragraph text-sm text-foreground/40">
-              © {currentYear} FlightAI. All rights reserved.
+              © {currentYear} NewWings. All rights reserved.
             </p>
             <p className="font-paragraph text-sm text-foreground/40">
               A Conrad Challenge Innovation Project
