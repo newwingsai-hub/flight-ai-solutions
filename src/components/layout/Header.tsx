@@ -30,14 +30,8 @@ export default function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 bg-gradient-to-br from-primary to-light-blue rounded-lg flex items-center justify-center">
-              <svg className="w-6 h-6 text-primary-foreground" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-              </svg>
-            </div>
-            <span className="font-heading text-xl font-bold text-foreground group-hover:text-primary transition-colors">
-              FlightAI
-            </span>
+
+            <span className="font-heading text-xl font-bold text-foreground group-hover:text-primary transition-colors">{"NewWings"}</span>
           </Link>
 
           {/* Desktop Navigation */}
