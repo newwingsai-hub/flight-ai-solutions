@@ -136,9 +136,7 @@ export default function HomePage() {
           -webkit-text-stroke: 2px rgba(255, 255, 255, 0.1);
         }
       `}</style>
-
       <Header />
-
       {/* --- HERO SECTION --- */}
       <section className="relative h-screen w-full flex items-center justify-center overflow-hidden">
         {/* Dynamic Background */}
@@ -181,10 +179,7 @@ export default function HomePage() {
         >
           <div className="lg:col-span-8">
             <AnimatedElement>
-              <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-8 backdrop-blur-sm">
-                <div className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-                <span className="font-heading text-sm tracking-wider text-primary uppercase">Next-Gen Aviation Intelligence</span>
-              </div>
+
             </AnimatedElement>
 
             <AnimatedElement delay={100}>
@@ -197,10 +192,7 @@ export default function HomePage() {
             </AnimatedElement>
 
             <AnimatedElement delay={200}>
-              <p className="font-paragraph text-xl md:text-2xl text-gray-400 max-w-2xl mb-12 leading-relaxed border-l-2 border-primary/30 pl-6">
-                Proprietary AI that masters the complexity of hybrid-electric aviation. 
-                Real-time energy management for a sustainable sky.
-              </p>
+              <p className="font-paragraph text-xl md:text-2xl text-gray-400 max-w-2xl mb-12 leading-relaxed border-l-2 border-primary/30 pl-6">{"AI that masters the complexity of hybrid-electric aviation. Real-time energy management for a sustainable sky."}</p>
             </AnimatedElement>
 
             <AnimatedElement delay={300}>
@@ -240,7 +232,6 @@ export default function HomePage() {
           <span className="font-mono text-xs text-white/40 uppercase tracking-widest">Scroll to Navigate</span>
         </div>
       </section>
-
       {/* --- PROBLEM SECTION: "THE TURBULENCE" --- */}
       <section className="relative py-32 bg-background z-20 clip-diagonal">
         <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-b from-destructive/5 to-transparent pointer-events-none" />
@@ -320,7 +311,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       {/* --- SOLUTION SECTION: "THE CORRECTION" --- */}
       <section className="relative py-32 bg-[#0A0A0A] z-10 -mt-20 pt-48">
         {/* Background Elements */}
@@ -406,7 +396,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       {/* --- IMPACT SECTION: STICKY SCROLL --- */}
       <section className="relative bg-background py-32 border-t border-white/5">
         <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
@@ -465,7 +454,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       {/* --- MARKET USE CASES: HORIZONTAL SCROLL FEEL --- */}
       <section className="py-32 bg-[#0F0F0F] overflow-hidden">
         <div className="mb-24 px-6 lg:px-12 max-w-[120rem] mx-auto">
@@ -527,7 +515,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       {/* --- TEAM TEASER --- */}
       <section className="py-32 bg-background relative">
         <div className="max-w-[120rem] mx-auto px-6 lg:px-12 text-center">
@@ -552,7 +539,6 @@ export default function HomePage() {
           </AnimatedElement>
         </div>
       </section>
-
       {/* --- CTA SECTION --- */}
       <section className="relative py-32 overflow-hidden">
         <div className="absolute inset-0 bg-primary/5" />
@@ -582,7 +568,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       <Footer />
     </div>
   );
