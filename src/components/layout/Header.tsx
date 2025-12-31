@@ -32,12 +32,14 @@ export default function Header() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
             <Image
-              src="https://static.wixstatic.com/media/415bd8_bf56b998363340409a85b0a0c81e05ed~mv2.png"
-              alt="NewWings Logo"
+              src="https://static.wixstatic.com/media/415bd8_d81b1cf0080e40dd8fdbdf7fe2f306ca~mv2.png"
               width={40}
               height={40}
               className="w-10 h-10"
-            />
+              originWidth={1024}
+              originHeight={1024}
+              focalPointX={53.01204819277109}
+              focalPointY={48.19277108433735} />
             <span className="font-heading text-xl font-bold text-foreground group-hover:text-primary transition-colors">NewWings</span>
           </Link>
 
