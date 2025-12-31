@@ -53,7 +53,6 @@ export default function TeamPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-background via-background to-blue-900/10">
       <Header />
-
       {/* Hero Section */}
       <section className="pt-32 pb-16 lg:pt-40 lg:pb-24">
         <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
@@ -77,7 +76,6 @@ export default function TeamPage() {
           </motion.div>
         </div>
       </section>
-
       {/* Conrad Challenge Section */}
       <section className="py-16 lg:py-24 bg-gradient-to-b from-blue-900/5 to-background">
         <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
@@ -153,7 +151,6 @@ export default function TeamPage() {
           </div>
         </div>
       </section>
-
       {/* Team Members from CMS */}
       {!loading && teamMembers.length > 0 && (
         <section className="py-16 lg:py-24">
@@ -185,12 +182,7 @@ export default function TeamPage() {
                 >
                   {member.profilePicture && (
                     <div className="aspect-square overflow-hidden">
-                      <Image
-                        src={member.profilePicture}
-                        alt={member.name || 'Team member'}
-                        width={400}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                      />
+
                     </div>
                   )}
                   <div className="p-8">
@@ -226,114 +218,17 @@ export default function TeamPage() {
           </div>
         </section>
       )}
-
       {/* Our Values */}
-      <section className="py-16 lg:py-24 bg-gradient-to-b from-blue-900/5 to-background">
-        <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
-          <motion.div
-            className="text-center mb-16"
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-          >
-            <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground mb-6">
-              Our <span className="text-primary">Values</span>
-            </h2>
-            <p className="font-paragraph text-lg text-foreground/70 max-w-3xl mx-auto">
-              The principles that guide our work and drive our innovation
-            </p>
-          </motion.div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            {values.map((value, index) => {
-              const Icon = value.icon;
-              return (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, y: 30 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.6, delay: index * 0.1 }}
-                  className="bg-foreground/5 backdrop-blur-lg rounded-2xl border border-primary/10 p-8 hover:border-primary/30 transition-all text-center"
-                >
-                  <div className={`w-16 h-16 rounded-xl ${value.bgColor} flex items-center justify-center mx-auto mb-6`}>
-                    <Icon className={`w-8 h-8 ${value.color}`} />
-                  </div>
-                  <h3 className="font-heading text-2xl font-semibold text-foreground mb-4">{value.title}</h3>
-                  <p className="font-paragraph text-base text-foreground/60 leading-relaxed">{value.description}</p>
-                </motion.div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
       {/* Our Journey */}
       <section className="py-16 lg:py-24">
-        <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
-          <motion.div
-            className="max-w-4xl mx-auto"
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-          >
-            <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-6 text-center">
-              Our <span className="text-primary">Journey</span>
-            </h2>
-            <div className="space-y-8">
-              <div className="bg-foreground/5 backdrop-blur-lg rounded-2xl border border-primary/10 p-8">
-                <h3 className="font-heading text-xl font-semibold text-foreground mb-3">Research & Discovery</h3>
-                <p className="font-paragraph text-base text-foreground/60 leading-relaxed">
-                  We began by researching the challenges facing hybrid-electric aviation, interviewing industry experts,
-                  and analyzing real flight data to understand the problem deeply.
-                </p>
-              </div>
-              <div className="bg-foreground/5 backdrop-blur-lg rounded-2xl border border-primary/10 p-8">
-                <h3 className="font-heading text-xl font-semibold text-foreground mb-3">Development & Testing</h3>
-                <p className="font-paragraph text-base text-foreground/60 leading-relaxed">
-                  Our team developed machine learning algorithms, built prototypes, and tested our solution against
-                  historical flight data to validate its effectiveness.
-                </p>
-              </div>
-              <div className="bg-foreground/5 backdrop-blur-lg rounded-2xl border border-primary/10 p-8">
-                <h3 className="font-heading text-xl font-semibold text-foreground mb-3">Impact & Future</h3>
-                <p className="font-paragraph text-base text-foreground/60 leading-relaxed">
-                  Today, our AI-powered solution is ready to help aviation operators reduce emissions, lower costs, and
-                  lead the transition to sustainable flight. We're excited about the future possibilities.
-                </p>
-              </div>
-            </div>
-          </motion.div>
-        </div>
-      </section>
 
+      </section>
       {/* CTA */}
       <section className="py-16 lg:py-24">
         <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
-          <motion.div
-            className="bg-gradient-to-br from-primary/10 to-light-blue/10 backdrop-blur-lg rounded-3xl border border-primary/20 p-12 lg:p-16 text-center"
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-          >
-            <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Want to Learn More?
-            </h2>
-            <p className="font-paragraph text-lg text-foreground/70 max-w-2xl mx-auto mb-8">
-              Get in touch to discuss partnerships, collaborations, or learn more about our innovation
-            </p>
-            <a href="/contact" className="inline-block">
-              <button className="bg-primary text-primary-foreground hover:bg-primary/90 h-12 px-8 rounded-lg font-paragraph text-base transition-colors">
-                Contact Us
-              </button>
-            </a>
-          </motion.div>
+
         </div>
       </section>
-
       <Footer />
     </div>
   );
