@@ -416,14 +416,14 @@ export default function HomePage() {
                   color: "text-primary"
                 },
                 {
-                  val: "40%",
+                  val: "8 to 15 %",
                   label: "Battery Life Extension",
                   desc: "Through thermal-aware discharge cycles and optimized regeneration.",
                   color: "text-light-blue"
                 },
                 {
-                  val: "ZERO",
-                  label: "Critical Failures",
+                  val: "20 %",
+                  label: "Reduction in CO₂ emissions",
                   desc: "In simulated stress tests across 10,000 flight hours.",
                   color: "text-white"
                 }
