@@ -221,8 +221,7 @@ export default function HomePage() {
 
         {/* Scroll Indicator */}
         <div className="absolute bottom-12 left-8 flex items-center gap-4 z-20">
-          <div className="h-[1px] w-24 bg-white/20" />
-          <span className="font-mono text-xs text-white/40 uppercase tracking-widest">Scroll to Navigate</span>
+
         </div>
       </section>
       {/* --- PROBLEM SECTION: "THE TURBULENCE" --- */}
@@ -382,9 +381,7 @@ export default function HomePage() {
 
           <div className="mt-16 text-center">
             <Link to="/solution">
-              <Button className="bg-transparent border border-primary text-primary hover:bg-primary hover:text-black h-14 px-10 font-heading text-lg tracking-wide transition-all">
-                Explore The Technology
-              </Button>
+
             </Link>
           </div>
         </div>
@@ -402,13 +399,9 @@ export default function HomePage() {
                   WORLD <br />
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-light-blue">IMPACT</span>
                 </h2>
-                <p className="font-paragraph text-xl text-gray-400 max-w-md mb-12">
-                  Our software isn't theoretical. It delivers measurable improvements in efficiency, cost, and safety for every flight hour.
-                </p>
+
                 <Link to="/impact">
-                  <Button className="bg-white text-black hover:bg-gray-200 rounded-full h-12 px-8 font-heading">
-                    View Full Impact Report
-                  </Button>
+
                 </Link>
               </AnimatedElement>
             </div>
@@ -417,7 +410,7 @@ export default function HomePage() {
             <div className="space-y-32 pt-12 lg:pt-0">
               {[
                 {
-                  val: "30%",
+                  val: "5 to 10 %",
                   label: "Fuel Reduction",
                   desc: "Average fuel savings per flight on hybrid-electric regional routes.",
                   color: "text-primary"
@@ -448,7 +441,6 @@ export default function HomePage() {
         </div>
       </section>
       {/* --- MARKET USE CASES: HORIZONTAL SCROLL FEEL --- */}
-
       {/* --- TEAM TEASER --- */}
       <section className="py-32 bg-background relative">
         <div className="max-w-[120rem] mx-auto px-6 lg:px-12 text-center">
