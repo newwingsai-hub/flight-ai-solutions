@@ -13,12 +13,12 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <Image
-                src="https://static.wixstatic.com/media/415bd8_bf56b998363340409a85b0a0c81e05ed~mv2.png"
-                alt="NewWings Logo"
+                src="https://static.wixstatic.com/media/415bd8_828540bddcbb4bd8b4e2904e8e70dc3f~mv2.png"
                 width={40}
                 height={40}
                 className="w-10 h-10"
-              />
+                originWidth={665}
+                originHeight={633} />
               <span className="font-heading text-xl font-bold text-foreground">NewWings</span>
             </div>
             <p className="font-paragraph text-sm text-foreground/60 leading-relaxed">

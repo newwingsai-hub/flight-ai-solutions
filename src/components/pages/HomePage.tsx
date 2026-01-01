@@ -200,9 +200,7 @@ export default function HomePage() {
                   </Button>
                 </Link>
                 <Link to="/contact">
-                  <Button variant="outline" className="h-14 px-8 border-white/20 text-white hover:bg-white/5 rounded-none font-heading text-lg tracking-wide">
-                    Request Access
-                  </Button>
+
                 </Link>
               </div>
             </AnimatedElement>
@@ -215,8 +213,7 @@ export default function HomePage() {
              <div className="absolute inset-0 flex items-center justify-center">
                 <div className="relative w-64 h-64 glass-panel rounded-full flex items-center justify-center">
                   <Plane className="w-24 h-24 text-primary/80" />
-                  <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-4 bg-background px-2 text-xs text-primary font-mono">ALT: 32,000</div>
-                  <div className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-4 bg-background px-2 text-xs text-light-blue font-mono">BAT: 84%</div>
+
                 </div>
              </div>
           </div>
