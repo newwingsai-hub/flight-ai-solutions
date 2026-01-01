@@ -60,7 +60,6 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-background via-background to-blue-900/10">
       <Header />
-
       {/* Hero Section */}
       <section className="pt-32 pb-16 lg:pt-40 lg:pb-24">
         <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
@@ -84,7 +83,6 @@ export default function ContactPage() {
           </motion.div>
         </div>
       </section>
-
       {/* Contact Form Section */}
       <section className="py-16 lg:py-24">
         <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
@@ -97,13 +95,12 @@ export default function ContactPage() {
               transition={{ duration: 0.8 }}
             >
               <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-6">
-                Let's Start a <span className="text-primary">Conversation</span>
+                Contact <span className="text-primary">Us</span>
               </h2>
               <p className="font-paragraph text-lg text-foreground/70 mb-8 leading-relaxed">
                 Whether you're an airline operator, cargo company, AAM developer, or just curious about our technology,
                 we're here to help.
               </p>
-
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 rounded-xl bg-primary/20 flex items-center justify-center flex-shrink-0">
@@ -128,35 +125,6 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              <div className="mt-12 bg-foreground/5 backdrop-blur-lg rounded-2xl border border-primary/10 p-8">
-                <h3 className="font-heading text-xl font-semibold text-foreground mb-4">What to Expect</h3>
-                <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                    <p className="font-paragraph text-sm text-foreground/60">
-                      Personalized response from our team
-                    </p>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                    <p className="font-paragraph text-sm text-foreground/60">
-                      Detailed information about our solution
-                    </p>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                    <p className="font-paragraph text-sm text-foreground/60">
-                      Discussion of partnership opportunities
-                    </p>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                    <p className="font-paragraph text-sm text-foreground/60">
-                      Technical demonstrations if requested
-                    </p>
-                  </li>
-                </ul>
-              </div>
             </motion.div>
 
             {/* Contact Form */}
@@ -283,7 +251,6 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
-
       {/* Additional Info */}
       <section className="py-16 lg:py-24 bg-gradient-to-b from-blue-900/5 to-background">
         <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
@@ -309,7 +276,6 @@ export default function ContactPage() {
           </motion.div>
         </div>
       </section>
-
       <Footer />
     </div>
   );
