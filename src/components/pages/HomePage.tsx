@@ -448,66 +448,7 @@ export default function HomePage() {
         </div>
       </section>
       {/* --- MARKET USE CASES: HORIZONTAL SCROLL FEEL --- */}
-      <section className="py-32 bg-[#0F0F0F] overflow-hidden">
-        <div className="mb-24 px-6 lg:px-12 max-w-[120rem] mx-auto">
-          <AnimatedElement>
-            <h2 className="font-heading text-4xl md:text-5xl font-bold text-white">
-              MISSION <span className="text-primary">PROFILES</span>
-            </h2>
-          </AnimatedElement>
-        </div>
 
-        <div className="relative w-full overflow-x-auto pb-12 hide-scrollbar">
-          <div className="flex gap-8 px-6 lg:px-12 w-max">
-            {[
-              {
-                title: "Commercial Airlines",
-                icon: Plane,
-                image: "https://static.wixstatic.com/media/415bd8_61a2029a361a429197c099ebc1dd6883~mv2.png?originWidth=320&originHeight=448",
-                desc: "Optimizing fleet transition to hybrid models."
-              },
-              {
-                title: "Cargo Logistics",
-                icon: Globe,
-                image: "https://static.wixstatic.com/media/415bd8_ff4ffcdf45c843388a8ca6bc5ffe15ff~mv2.png?originWidth=320&originHeight=448",
-                desc: "Maximizing payload efficiency and range."
-              },
-              {
-                title: "Urban Air Mobility",
-                icon: Zap,
-                image: "https://static.wixstatic.com/media/415bd8_763a202cd77b4d7ab92d8890b1b112dc~mv2.png?originWidth=320&originHeight=448",
-                desc: "Energy management for eVTOL short-hops."
-              },
-              {
-                title: "Flight Schools",
-                icon: Target,
-                image: "https://static.wixstatic.com/media/415bd8_9ce01609333344ada997ce98607704c0~mv2.png?originWidth=320&originHeight=448",
-                desc: "Reducing training costs with electric trainers."
-              }
-            ].map((item, idx) => (
-              <div key={idx} className="w-[350px] md:w-[450px] group relative aspect-[3/4] overflow-hidden border border-white/10 bg-black">
-                <Image 
-                  src={item.image} 
-                  alt={item.title}
-                  className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-40 group-hover:scale-110 transition-all duration-700"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
-                
-                <div className="absolute bottom-0 left-0 p-8 w-full">
-                  <div className="w-12 h-12 bg-primary/20 backdrop-blur-md flex items-center justify-center mb-6 rounded-lg">
-                    <item.icon className="w-6 h-6 text-primary" />
-                  </div>
-                  <h3 className="font-heading text-3xl text-white mb-2">{item.title}</h3>
-                  <p className="font-paragraph text-gray-400 mb-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500 transform translate-y-4 group-hover:translate-y-0">
-                    {item.desc}
-                  </p>
-                  <div className="h-[1px] w-full bg-white/20 group-hover:bg-primary transition-colors duration-500" />
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
       {/* --- TEAM TEASER --- */}
       <section className="py-32 bg-background relative">
         <div className="max-w-[120rem] mx-auto px-6 lg:px-12 text-center">
