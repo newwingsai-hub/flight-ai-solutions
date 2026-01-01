@@ -63,7 +63,7 @@ export default function TeamPage() {
             transition={{ duration: 0.8 }}
           >
             <h1 className="font-heading text-5xl md:text-7xl font-bold text-foreground mb-6">
-              About Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-light-blue">Team</span>
+             Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-light-blue">Team</span>
             </h1>
 
           </motion.div>
@@ -71,25 +71,7 @@ export default function TeamPage() {
       </section>
       {/* Conrad Challenge Section */}
       {/* Team Members from CMS */}
-      {!loading && teamMembers.length > 0 && (
-        <section className="py-16 lg:py-24">
-          <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
-            <motion.div
-              className="text-center mb-16"
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8 }}
-            >
-              <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground mb-6">
-                Meet the <span className="text-primary">Team</span>
-              </h2>
 
-            </motion.div>
-
-          </div>
-        </section>
-      )}
       {/* Our Values */}
       {/* Our Journey */}
       {/* CTA */}
