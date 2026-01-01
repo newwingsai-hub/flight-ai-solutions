@@ -46,16 +46,14 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/impact" className="font-paragraph text-sm text-foreground/60 hover:text-primary transition-colors">
-                  Impact
-                </Link>
+
               </li>
             </ul>
           </div>
 
           {/* More Links */}
           <div>
-            <h3 className="font-heading text-base font-semibold text-foreground mb-4">Learn More</h3>
+
             <ul className="space-y-3">
               <li>
                 <Link to="/market" className="font-paragraph text-sm text-foreground/60 hover:text-primary transition-colors">
