@@ -74,80 +74,6 @@ export default function TeamPage() {
         </div>
       </section>
       {/* Conrad Challenge Section */}
-      <section className="py-16 lg:py-24 bg-gradient-to-b from-blue-900/5 to-background">
-        <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <motion.div
-              initial={{ opacity: 0, x: -30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8 }}
-            >
-              <div className="w-16 h-16 rounded-xl bg-primary/20 flex items-center justify-center mb-6">
-                <Award className="w-8 h-8 text-primary" />
-              </div>
-              <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-6">
-                The <span className="text-primary">Conrad Challenge</span>
-              </h2>
-              <p className="font-paragraph text-lg text-foreground/70 mb-6 leading-relaxed">
-                The Conrad Challenge is a premier innovation competition that empowers students to create solutions to
-                real-world problems. Named after astronaut Pete Conrad, it challenges young innovators to think big and
-                develop products that can make a difference.
-              </p>
-              <p className="font-paragraph text-lg text-foreground/70 mb-6 leading-relaxed">
-                Our team chose to tackle one of aviation's most pressing challenges: optimizing energy management in
-                hybrid-electric aircraft. We saw an opportunity to combine our passion for technology with the urgent
-                need for sustainable aviation solutions.
-              </p>
-              <p className="font-paragraph text-lg text-foreground/70 leading-relaxed">
-                What started as a competition project has evolved into a comprehensive AI-powered solution with real
-                potential to transform the aviation industry.
-              </p>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, x: 30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8 }}
-              className="relative"
-            >
-              <div className="aspect-square rounded-2xl bg-gradient-to-br from-primary/10 to-light-blue/10 backdrop-blur-lg border border-primary/20 p-12 flex items-center justify-center">
-                <div className="relative w-full h-full">
-                  <motion.div
-                    className="absolute top-1/4 left-1/4 w-20 h-20 rounded-full bg-primary/30 blur-xl"
-                    animate={{
-                      scale: [1, 1.2, 1],
-                      opacity: [0.3, 0.5, 0.3],
-                    }}
-                    transition={{
-                      duration: 3,
-                      repeat: Infinity,
-                      ease: 'easeInOut',
-                    }}
-                  />
-                  <motion.div
-                    className="absolute bottom-1/4 right-1/4 w-24 h-24 rounded-full bg-light-blue/30 blur-xl"
-                    animate={{
-                      scale: [1, 1.3, 1],
-                      opacity: [0.3, 0.6, 0.3],
-                    }}
-                    transition={{
-                      duration: 4,
-                      repeat: Infinity,
-                      ease: 'easeInOut',
-                      delay: 0.5,
-                    }}
-                  />
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <Award className="w-40 h-40 text-primary/40" />
-                  </div>
-                </div>
-              </div>
-            </motion.div>
-          </div>
-        </div>
-      </section>
       {/* Team Members from CMS */}
       {!loading && teamMembers.length > 0 && (
         <section className="py-16 lg:py-24">
@@ -182,33 +108,7 @@ export default function TeamPage() {
 
                     </div>
                   )}
-                  <div className="p-8">
-                    <h3 className="font-heading text-2xl font-semibold text-foreground mb-2">{member.name}</h3>
-                    {member.role && (
-                      <p className="font-paragraph text-base text-primary mb-3">{member.role}</p>
-                    )}
-                    {member.conradChallengeRole && (
-                      <p className="font-paragraph text-sm text-foreground/60 mb-3">
-                        Conrad Role: {member.conradChallengeRole}
-                      </p>
-                    )}
-                    {member.background && (
-                      <p className="font-paragraph text-sm text-foreground/60 mb-4 leading-relaxed">
-                        {member.background}
-                      </p>
-                    )}
-                    {member.linkedInUrl && (
-                      <a
-                        href={member.linkedInUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 text-primary hover:text-primary/80 transition-colors"
-                      >
-                        <Linkedin size={18} />
-                        <span className="font-paragraph text-sm">Connect on LinkedIn</span>
-                      </a>
-                    )}
-                  </div>
+
                 </motion.div>
               ))}
             </div>
