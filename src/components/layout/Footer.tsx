@@ -25,7 +25,6 @@ export default function Footer() {
               Intelligent flight optimization for sustainable aviation. A student innovation for the Conrad Challenge.
             </p>
           </div>
-
           {/* Quick Links */}
           <div>
             <h3 className="font-heading text-base font-semibold text-foreground mb-4">Quick Links</h3>
@@ -50,30 +49,8 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-
           {/* More Links */}
-          <div>
 
-            <ul className="space-y-3">
-              <li>
-                <Link to="/market" className="font-paragraph text-sm text-foreground/60 hover:text-primary transition-colors">
-                  Market & Use Cases
-                </Link>
-              </li>
-              <li>
-                <Link to="/team" className="font-paragraph text-sm text-foreground/60 hover:text-primary transition-colors">
-                  About the Team
-                </Link>
-              </li>
-              <li>
-                <Link to="/contact" className="font-paragraph text-sm text-foreground/60 hover:text-primary transition-colors">
-                  Contact Us
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Contact & Social */}
           <div>
             <h3 className="font-heading text-base font-semibold text-foreground mb-4">Connect</h3>
             <div className="space-y-4">
@@ -82,27 +59,11 @@ export default function Footer() {
                 contact@flightai.com
               </p>
               <div className="flex gap-4">
-                <a
-                  href="https://linkedin.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-10 h-10 rounded-lg bg-foreground/5 hover:bg-primary/20 flex items-center justify-center text-foreground/60 hover:text-primary transition-all"
-                  aria-label="LinkedIn"
-                >
-                  <Linkedin size={18} />
-                </a>
-                <a
-                  href="https://github.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-10 h-10 rounded-lg bg-foreground/5 hover:bg-primary/20 flex items-center justify-center text-foreground/60 hover:text-primary transition-all"
-                  aria-label="GitHub"
-                >
-                  <Github size={18} />
-                </a>
+
               </div>
             </div>
           </div>
+          {/* Contact & Social */}
         </div>
 
         {/* Bottom Bar */}

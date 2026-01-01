@@ -62,14 +62,10 @@ export default function TeamPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-
             <h1 className="font-heading text-5xl md:text-7xl font-bold text-foreground mb-6">
               About Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-light-blue">Team</span>
             </h1>
-            <p className="font-paragraph text-xl text-foreground/70 leading-relaxed">
-              A passionate team of students creating innovative solutions for sustainable aviation as part of the Conrad
-              Challenge.
-            </p>
+
           </motion.div>
         </div>
       </section>
