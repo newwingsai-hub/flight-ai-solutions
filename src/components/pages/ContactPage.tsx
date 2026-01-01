@@ -97,10 +97,7 @@ export default function ContactPage() {
               <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-6">
                 Contact <span className="text-primary">Us</span>
               </h2>
-              <p className="font-paragraph text-lg text-foreground/70 mb-8 leading-relaxed">
-                Whether you're an airline operator, cargo company, AAM developer, or just curious about our technology,
-                we're here to help.
-              </p>
+
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 rounded-xl bg-primary/20 flex items-center justify-center flex-shrink-0">
@@ -112,19 +109,7 @@ export default function ContactPage() {
                   </div>
                 </div>
 
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-light-blue/20 flex items-center justify-center flex-shrink-0">
-                    <MessageSquare className="w-6 h-6 text-light-blue" />
-                  </div>
-                  <div>
-                    <h3 className="font-heading text-lg font-semibold text-foreground mb-1">Response Time</h3>
-                    <p className="font-paragraph text-base text-foreground/60">
-                      We typically respond within 24-48 hours
-                    </p>
-                  </div>
-                </div>
               </div>
-
             </motion.div>
 
             {/* Contact Form */}
