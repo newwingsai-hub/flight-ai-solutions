@@ -5,7 +5,6 @@ import ErrorPage from '@/integrations/errorHandlers/ErrorPage';
 import HomePage from '@/components/pages/HomePage';
 import ProblemPage from '@/components/pages/ProblemPage';
 import SolutionPage from '@/components/pages/SolutionPage';
-import MarketPage from '@/components/pages/MarketPage';
 import TeamPage from '@/components/pages/TeamPage';
 import ContactPage from '@/components/pages/ContactPage';
 
@@ -36,10 +35,6 @@ const router = createBrowserRouter([
       {
         path: "solution",
         element: <SolutionPage />,
-      },
-      {
-        path: "market",
-        element: <MarketPage />,
       },
       {
         path: "team",
