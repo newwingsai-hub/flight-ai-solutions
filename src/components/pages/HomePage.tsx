@@ -195,7 +195,7 @@ export default function HomePage() {
               <div className="flex flex-wrap gap-6">
                 <Link to="/solution">
                   <Button className="h-14 px-8 bg-primary text-black hover:bg-primary/90 rounded-none border-r-4 border-white font-heading text-lg tracking-wide transition-all hover:translate-x-1">
-                    Initialize System
+                    Learn More
                     <ArrowRight className="ml-2 w-5 h-5" />
                   </Button>
                 </Link>
