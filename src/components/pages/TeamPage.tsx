@@ -88,30 +88,9 @@ export default function TeamPage() {
               <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground mb-6">
                 Meet the <span className="text-primary">Team</span>
               </h2>
-              <p className="font-paragraph text-lg text-foreground/70 max-w-3xl mx-auto">
-                Passionate students working together to revolutionize sustainable aviation
-              </p>
+
             </motion.div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {teamMembers.map((member, index) => (
-                <motion.div
-                  key={member._id}
-                  initial={{ opacity: 0, y: 30 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.6, delay: index * 0.1 }}
-                  className="bg-foreground/5 backdrop-blur-lg rounded-2xl border border-primary/10 overflow-hidden hover:border-primary/30 transition-all group"
-                >
-                  {member.profilePicture && (
-                    <div className="aspect-square overflow-hidden">
-
-                    </div>
-                  )}
-
-                </motion.div>
-              ))}
-            </div>
           </div>
         </section>
       )}
