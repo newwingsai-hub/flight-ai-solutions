@@ -433,7 +433,7 @@ export default function HomePage() {
                     {stat.val}
                   </div>
                   <h3 className="font-heading text-2xl text-white mb-4 uppercase tracking-widest">{stat.label}</h3>
-                  <p className="font-paragraph text-lg text-gray-400">{stat.desc}</p>
+
                 </AnimatedElement>
               ))}
             </div>
@@ -442,29 +442,6 @@ export default function HomePage() {
       </section>
       {/* --- MARKET USE CASES: HORIZONTAL SCROLL FEEL --- */}
       {/* --- TEAM TEASER --- */}
-      <section className="py-32 bg-background relative">
-        <div className="max-w-[120rem] mx-auto px-6 lg:px-12 text-center">
-          <AnimatedElement>
-            <div className="inline-block mb-6">
-              <div className="px-4 py-1 border border-white/20 rounded-full text-xs font-mono text-gray-400 uppercase tracking-widest">
-                Conrad Challenge Finalists
-              </div>
-            </div>
-            <h2 className="font-heading text-4xl md:text-6xl font-bold text-white mb-8">
-              BUILT BY THE <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-light-blue">NEXT GENERATION</span>
-            </h2>
-            <p className="font-paragraph text-xl text-gray-400 max-w-2xl mx-auto mb-12">
-              We are a team of student innovators passionate about solving the climate crisis through aviation technology.
-            </p>
-            <Link to="/team">
-              <Button variant="outline" className="border-white/20 text-white hover:bg-white/10 h-12 px-8 rounded-none font-heading">
-                Meet The Crew
-              </Button>
-            </Link>
-          </AnimatedElement>
-        </div>
-      </section>
       {/* --- CTA SECTION --- */}
       <section className="relative py-32 overflow-hidden">
         <div className="absolute inset-0 bg-primary/5" />
