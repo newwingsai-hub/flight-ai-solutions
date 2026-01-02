@@ -10,7 +10,7 @@ export default function ProblemPage() {
       title: 'Rising Fuel Costs',
       description:
         'Aviation fuel prices continue to climb, putting pressure on operators to reduce consumption. Inefficient energy management in hybrid aircraft leads to unnecessary fuel burn and higher operational costs.',
-      impact: 'Up to 30% of operational costs',
+      impact: 'Fuel and energy costs account for ~20–30% of airline operating expenses',
       color: 'text-destructive',
       bgColor: 'bg-destructive/20',
     },
@@ -19,7 +19,7 @@ export default function ProblemPage() {
       title: 'Carbon Emissions',
       description:
         'The aviation industry contributes significantly to global emissions. Without optimized energy usage, hybrid-electric aircraft fail to deliver their full environmental potential.',
-      impact: '2-3% of global CO2 emissions',
+      impact: 'Aviation contributes 2–3% of global CO₂ emissions',
       color: 'text-light-blue',
       bgColor: 'bg-light-blue/20',
     },
@@ -28,7 +28,7 @@ export default function ProblemPage() {
       title: 'Complex Energy Management',
       description:
         'Pilots and operators face difficult real-time decisions about when to use electric power versus conventional fuel. Manual management is prone to errors and suboptimal choices.',
-      impact: 'Human error in 60% of cases',
+      impact: 'Manual energy management increases the risk of human error',
       color: 'text-secondary',
       bgColor: 'bg-secondary/20',
     },
@@ -37,7 +37,7 @@ export default function ProblemPage() {
       title: 'Battery Limitations',
       description:
         'Current battery technology has limited capacity and charging infrastructure. Poor energy recovery and inefficient power distribution reduce flight range and performance.',
-      impact: 'Range reduced by 20-40%',
+      impact: 'Range limitations of 15–30% compared to conventional aircraft',
       color: 'text-primary',
       bgColor: 'bg-primary/20',
     },
@@ -46,7 +46,7 @@ export default function ProblemPage() {
       title: 'Performance Trade-offs',
       description:
         'Balancing speed, range, payload, and energy efficiency requires constant optimization. Without AI assistance, operators struggle to find the optimal balance for each flight.',
-      impact: 'Efficiency loss of 15-25%',
+      impact: 'Efficiency losses of up to 10–20% without optimized energy management',
       color: 'text-dark-green',
       bgColor: 'bg-dark-green/20',
     },
@@ -55,7 +55,7 @@ export default function ProblemPage() {
       title: 'Safety Concerns',
       description:
         'Improper energy management can lead to unexpected power shortages, reduced safety margins, and emergency situations. Reliable optimization is critical for safe operations.',
-      impact: 'Safety incidents increasing',
+      impact: 'Improper energy management can increase safety risks',
       color: 'text-destructive',
       bgColor: 'bg-destructive/20',
     },
