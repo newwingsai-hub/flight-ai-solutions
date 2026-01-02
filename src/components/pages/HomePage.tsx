@@ -304,11 +304,7 @@ export default function HomePage() {
                   </div>
                 </AnimatedElement>
               ))}
-              <div className="mt-8 p-6 bg-white/5 border border-white/10 rounded-none">
-                <p className="font-paragraph text-sm text-gray-400">
-                  <span className="text-primary font-semibold">Disclaimer:</span> All values presented are industry-based estimates designed to illustrate the scale of challenges in hybrid-electric aviation. These figures are not guaranteed and may vary significantly based on specific fleet configurations, operational patterns, and market conditions.
-                </p>
-              </div>
+
             </div>
           </div>
         </div>

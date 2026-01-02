@@ -80,7 +80,6 @@ export default function SolutionPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-background via-background to-blue-900/10">
       <Header />
-
       {/* Hero Section */}
       <section className="pt-32 pb-16 lg:pt-40 lg:pb-24">
         <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
@@ -104,7 +103,6 @@ export default function SolutionPage() {
           </motion.div>
         </div>
       </section>
-
       {/* Core Features */}
       <section className="py-16 lg:py-24 bg-gradient-to-b from-blue-900/5 to-background">
         <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
@@ -146,7 +144,6 @@ export default function SolutionPage() {
           </div>
         </div>
       </section>
-
       {/* How It Works */}
       <section className="py-16 lg:py-24">
         <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
@@ -188,7 +185,6 @@ export default function SolutionPage() {
           </div>
         </div>
       </section>
-
       {/* Technology Stack */}
       <section className="py-16 lg:py-24 bg-gradient-to-b from-blue-900/5 to-background">
         <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
@@ -211,7 +207,7 @@ export default function SolutionPage() {
                 predictive analytics to continuously improve optimization performance.
               </p>
               <div className="flex items-start gap-3 mb-4">
-                <Shield className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+
                 <div>
                   <h3 className="font-heading text-base font-semibold text-foreground mb-1">Safety First</h3>
                   <p className="font-paragraph text-sm text-foreground/60">
@@ -222,7 +218,7 @@ export default function SolutionPage() {
               <div className="flex items-start gap-3">
                 <Database className="w-6 h-6 text-light-blue flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="font-heading text-base font-semibold text-foreground mb-1">Continuous Learning</h3>
+
                   <p className="font-paragraph text-sm text-foreground/60">
                     The system learns from every flight, constantly improving its optimization algorithms
                   </p>
@@ -273,7 +269,6 @@ export default function SolutionPage() {
           </div>
         </div>
       </section>
-
       {/* Benefits */}
       <section className="py-16 lg:py-24">
         <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
@@ -309,7 +304,6 @@ export default function SolutionPage() {
           </div>
         </div>
       </section>
-
       {/* CTA */}
       <section className="py-16 lg:py-24">
         <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
@@ -341,7 +335,6 @@ export default function SolutionPage() {
           </motion.div>
         </div>
       </section>
-
       <Footer />
     </div>
   );
