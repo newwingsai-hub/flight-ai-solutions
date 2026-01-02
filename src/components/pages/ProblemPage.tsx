@@ -64,7 +64,6 @@ export default function ProblemPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-background via-background to-blue-900/10">
       <Header />
-
       {/* Hero Section */}
       <section className="pt-32 pb-16 lg:pt-40 lg:pb-24">
         <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
@@ -74,10 +73,7 @@ export default function ProblemPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-destructive/10 border border-destructive/20 mb-6">
-              <AlertTriangle className="w-4 h-4 text-destructive" />
-              <span className="font-paragraph text-sm text-destructive">Critical Industry Challenge</span>
-            </div>
+
             <h1 className="font-heading text-5xl md:text-7xl font-bold text-foreground mb-6">
               The Challenge in
               <br />
@@ -92,7 +88,6 @@ export default function ProblemPage() {
           </motion.div>
         </div>
       </section>
-
       {/* Main Problem Statement */}
       <section className="py-16 lg:py-24">
         <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
@@ -164,7 +159,6 @@ export default function ProblemPage() {
           </div>
         </div>
       </section>
-
       {/* Challenges Grid */}
       <section className="py-16 lg:py-24 bg-gradient-to-b from-blue-900/5 to-background">
         <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
@@ -211,44 +205,12 @@ export default function ProblemPage() {
           </div>
         </div>
       </section>
-
       {/* Impact Statistics */}
       <section className="py-16 lg:py-24">
         <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
-          <motion.div
-            className="bg-gradient-to-br from-primary/10 to-light-blue/10 backdrop-blur-lg rounded-3xl border border-primary/20 p-12 lg:p-16"
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-          >
-            <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-12 text-center">
-              The Cost of Inefficiency
-            </h2>
-            <div className="grid md:grid-cols-3 gap-12">
-              <div className="text-center">
-                <div className="font-heading text-5xl md:text-6xl font-bold text-primary mb-3">30%</div>
-                <p className="font-paragraph text-base text-foreground/70">
-                  Higher fuel costs due to poor energy management
-                </p>
-              </div>
-              <div className="text-center">
-                <div className="font-heading text-5xl md:text-6xl font-bold text-light-blue mb-3">25%</div>
-                <p className="font-paragraph text-base text-foreground/70">
-                  Reduction in flight range from inefficient battery use
-                </p>
-              </div>
-              <div className="text-center">
-                <div className="font-heading text-5xl md:text-6xl font-bold text-dark-green mb-3">40%</div>
-                <p className="font-paragraph text-base text-foreground/70">
-                  Missed emissions reduction potential
-                </p>
-              </div>
-            </div>
-          </motion.div>
+
         </div>
       </section>
-
       {/* Conclusion */}
       <section className="py-16 lg:py-24">
         <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
@@ -269,7 +231,6 @@ export default function ProblemPage() {
           </motion.div>
         </div>
       </section>
-
       <Footer />
     </div>
   );
