@@ -260,22 +260,25 @@ export default function HomePage() {
                 {
                   title: "Inefficient Power Distribution",
                   desc: "Manual switching between fuel and battery is imprecise, leading to wasted energy reserves and suboptimal flight profiles.",
-                  stat: "15%",
-                  statLabel: "Energy Wasted",
+                  stat: "10–15%",
+                  statLabel: "Energy Inefficiency Potential",
+                  disclaimer: "Estimated efficiency losses in hybrid-electric aircraft due to non-optimized energy management.",
                   icon: Zap
                 },
                 {
                   title: "Escalating Operational Costs",
                   desc: "Without predictive modeling, fuel consumption remains high even in hybrid aircraft, negating the potential ROI of electrification.",
-                  stat: "$2M+",
-                  statLabel: "Annual Loss / Fleet",
+                  stat: "$500K–1.5M",
+                  statLabel: "Annual Excess Operating Costs (Mid-Size Fleet)",
+                  disclaimer: "Estimate varies based on fleet size, fuel prices, and flight hours.",
                   icon: BarChart3
                 },
                 {
-                  title: "Carbon Compliance Failure",
-                  desc: "Regulatory pressure is mounting. Current systems cannot guarantee the emission reductions required for future certification.",
-                  stat: "High",
-                  statLabel: "Compliance Risk",
+                  title: "Increasing Carbon Compliance Risk",
+                  desc: "Regulatory pressure is growing. Current systems may struggle to meet future emissions standards without advanced optimization software.",
+                  stat: "Rising",
+                  statLabel: "Regulatory Pressure",
+                  disclaimer: "Industry-based estimate highlighting the scale of future compliance challenges.",
                   icon: Wind
                 }
               ].map((item, idx) => (
@@ -295,9 +298,17 @@ export default function HomePage() {
                         <div className="font-mono text-xs text-gray-500 uppercase">{item.statLabel}</div>
                       </div>
                     </div>
+                    <div className="mt-6 pt-6 border-t border-white/5">
+                      <p className="font-paragraph text-xs text-gray-500 italic">{item.disclaimer}</p>
+                    </div>
                   </div>
                 </AnimatedElement>
               ))}
+              <div className="mt-8 p-6 bg-white/5 border border-white/10 rounded-none">
+                <p className="font-paragraph text-sm text-gray-400">
+                  <span className="text-primary font-semibold">Disclaimer:</span> All values presented are industry-based estimates designed to illustrate the scale of challenges in hybrid-electric aviation. These figures are not guaranteed and may vary significantly based on specific fleet configurations, operational patterns, and market conditions.
+                </p>
+              </div>
             </div>
           </div>
         </div>
