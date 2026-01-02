@@ -40,9 +40,9 @@ export default function SolutionPage() {
   ];
 
   const benefits = [
-    'Reduce fuel consumption by up to 30%',
-    'Lower carbon emissions by 25-40%',
-    'Extend flight range by 20%',
+    'Reduce fuel consumption by up to 15%',
+    'Lower carbon emissions by 10-20%',
+    'Extend flight range by 5-10%',
     'Improve battery life and efficiency',
   ];
 
