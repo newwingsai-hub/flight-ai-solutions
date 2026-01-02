@@ -89,10 +89,7 @@ export default function SolutionPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-6">
-              <Brain className="w-4 h-4 text-primary" />
-              <span className="font-paragraph text-sm text-primary">Intelligent Flight Optimization</span>
-            </div>
+
             <h1 className="font-heading text-5xl md:text-7xl font-bold text-foreground mb-6">
               Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-light-blue">AI-Powered</span> Solution
             </h1>
@@ -209,19 +206,13 @@ export default function SolutionPage() {
               <div className="flex items-start gap-3 mb-4">
 
                 <div>
-                  <h3 className="font-heading text-base font-semibold text-foreground mb-1">Safety First</h3>
-                  <p className="font-paragraph text-sm text-foreground/60">
-                    All recommendations prioritize safety and comply with aviation regulations
-                  </p>
+
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <Database className="w-6 h-6 text-light-blue flex-shrink-0 mt-1" />
+
                 <div>
 
-                  <p className="font-paragraph text-sm text-foreground/60">
-                    The system learns from every flight, constantly improving its optimization algorithms
-                  </p>
                 </div>
               </div>
             </motion.div>
