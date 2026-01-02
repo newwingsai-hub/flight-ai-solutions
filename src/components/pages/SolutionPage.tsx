@@ -85,14 +85,10 @@ export default function SolutionPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-
             <h1 className="font-heading text-5xl md:text-7xl font-bold text-foreground mb-6">
               Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-light-blue">AI-Powered</span> Solution
             </h1>
-            <p className="font-paragraph text-xl text-foreground/70 leading-relaxed">
-              Proprietary software that uses machine learning and real flight data to optimize every aspect of
-              hybrid-electric aircraft operations, from energy management to route planning.
-            </p>
+
           </motion.div>
         </div>
       </section>
@@ -109,9 +105,7 @@ export default function SolutionPage() {
             <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground mb-6">
               Core <span className="text-primary">Features</span>
             </h2>
-            <p className="font-paragraph text-lg text-foreground/70 max-w-3xl mx-auto">
-              Advanced AI capabilities designed specifically for hybrid-electric aviation
-            </p>
+
           </motion.div>
 
           <div className="grid md:grid-cols-2 gap-8">
@@ -138,7 +132,6 @@ export default function SolutionPage() {
         </div>
       </section>
       {/* How It Works */}
-
       {/* Technology Stack */}
       <section className="py-16 lg:py-24 bg-gradient-to-b from-blue-900/5 to-background">
         <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
