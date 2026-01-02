@@ -343,20 +343,8 @@ export default function HomePage() {
               </div>
             </div>
             {/* Feature 2 */}
-            <div className="md:col-span-5 md:row-span-1 relative group overflow-hidden border border-white/10 bg-white/5 p-8 flex flex-col justify-between">
-              <div className="absolute top-0 right-0 p-4 opacity-20">
-                <Globe className="w-24 h-24 text-light-blue" />
-              </div>
-              <div>
-                <h3 className="font-heading text-2xl text-white mb-4">4D Trajectory Optimization</h3>
-                <p className="font-paragraph text-gray-400 text-sm">
-                  Adjusts flight paths in real-time based on wind patterns, air traffic, and battery thermal states.
-                </p>
-              </div>
 
-            </div>
             {/* Feature 3 */}
-
           </div>
 
           <div className="mt-16 text-center">
