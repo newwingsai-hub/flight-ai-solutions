@@ -237,30 +237,7 @@ export default function ContactPage() {
         </div>
       </section>
       {/* Additional Info */}
-      <section className="py-16 lg:py-24 bg-gradient-to-b from-blue-900/5 to-background">
-        <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
-          <motion.div
-            className="max-w-4xl mx-auto text-center"
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-          >
-            <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Interested in <span className="text-primary">Collaboration?</span>
-            </h2>
-            <p className="font-paragraph text-lg text-foreground/70 mb-8 leading-relaxed">
-              We're always looking for opportunities to collaborate with aviation companies, research institutions, and
-              fellow innovators. Whether you're interested in testing our solution, exploring partnerships, or simply
-              learning more about our technology, we'd love to connect.
-            </p>
-            <p className="font-paragraph text-base text-foreground/60">
-              As a Conrad Challenge project, we're committed to making a real impact on sustainable aviation. Let's work
-              together to build a cleaner, more efficient future for flight.
-            </p>
-          </motion.div>
-        </div>
-      </section>
+
       <Footer />
     </div>
   );

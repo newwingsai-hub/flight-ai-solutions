@@ -424,10 +424,7 @@ export default function HomePage() {
                 READY FOR <br />
                 TAKEOFF?
               </h2>
-              <p className="font-paragraph text-xl text-gray-300 max-w-2xl mx-auto mb-12">
-                Partner with us to pilot the future of sustainable aviation. 
-                Let's optimize your fleet for the electric era.
-              </p>
+
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
                 <Link to="/contact">
                   <Button className="h-16 px-12 bg-primary text-black hover:bg-primary/90 font-heading text-xl tracking-wide rounded-none">

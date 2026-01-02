@@ -65,18 +65,8 @@ export default function Footer() {
           </div>
           {/* Contact & Social */}
         </div>
-
         {/* Bottom Bar */}
-        <div className="mt-12 pt-8 border-t border-primary/10">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="font-paragraph text-sm text-foreground/40">
-              © {currentYear} NewWings. All rights reserved.
-            </p>
-            <p className="font-paragraph text-sm text-foreground/40">
-              A Conrad Challenge Innovation Project
-            </p>
-          </div>
-        </div>
+
       </div>
     </footer>
   );
