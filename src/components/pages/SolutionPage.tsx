@@ -138,46 +138,7 @@ export default function SolutionPage() {
         </div>
       </section>
       {/* How It Works */}
-      <section className="py-16 lg:py-24">
-        <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
-          <motion.div
-            className="text-center mb-16"
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-          >
-            <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground mb-6">
-              How It <span className="text-primary">Works</span>
-            </h2>
-            <p className="font-paragraph text-lg text-foreground/70 max-w-3xl mx-auto">
-              A seamless four-step process that delivers real-time optimization
-            </p>
-          </motion.div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {howItWorks.map((item, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="relative"
-              >
-                <div className="bg-foreground/5 backdrop-blur-lg rounded-2xl border border-primary/10 p-8 h-full">
-                  <div className="font-heading text-5xl font-bold text-primary/20 mb-4">{item.step}</div>
-                  <h3 className="font-heading text-xl font-semibold text-foreground mb-3">{item.title}</h3>
-                  <p className="font-paragraph text-sm text-foreground/60 leading-relaxed">{item.description}</p>
-                </div>
-                {index < howItWorks.length - 1 && (
-                  <div className="hidden lg:block absolute top-1/2 -right-4 w-8 h-0.5 bg-gradient-to-r from-primary/50 to-transparent" />
-                )}
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
       {/* Technology Stack */}
       <section className="py-16 lg:py-24 bg-gradient-to-b from-blue-900/5 to-background">
         <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
@@ -195,10 +156,7 @@ export default function SolutionPage() {
                 Our AI models are trained on thousands of hours of actual flight data from hybrid-electric aircraft,
                 ensuring accuracy and reliability in real-world conditions.
               </p>
-              <p className="font-paragraph text-lg text-foreground/70 mb-8 leading-relaxed">
-                We use advanced machine learning techniques including neural networks, reinforcement learning, and
-                predictive analytics to continuously improve optimization performance.
-              </p>
+
               <div className="flex items-start gap-3 mb-4">
 
                 <div>
@@ -269,9 +227,7 @@ export default function SolutionPage() {
             <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground mb-6">
               Key <span className="text-primary">Benefits</span>
             </h2>
-            <p className="font-paragraph text-lg text-foreground/70 max-w-3xl mx-auto">
-              Measurable improvements across all aspects of flight operations
-            </p>
+
           </motion.div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -292,36 +248,6 @@ export default function SolutionPage() {
         </div>
       </section>
       {/* CTA */}
-      <section className="py-16 lg:py-24 bg-secondary-foreground">
-        <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
-          <motion.div
-            className="bg-gradient-to-br from-primary/10 to-light-blue/10 backdrop-blur-lg rounded-3xl border border-primary/20 p-12 lg:p-16 text-center"
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-          >
-            <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Ready to Optimize Your Fleet?
-            </h2>
-            <p className="font-paragraph text-lg text-foreground/70 max-w-2xl mx-auto mb-8">
-              Discover how our AI-powered solution can transform your hybrid-electric aircraft operations
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="/impact" className="inline-block">
-                <button className="bg-primary text-primary-foreground hover:bg-primary/90 h-12 px-8 rounded-lg font-paragraph text-base transition-colors">
-                  View Our Impact
-                </button>
-              </a>
-              <a href="/contact" className="inline-block">
-                <button className="border border-primary text-primary hover:bg-primary/10 h-12 px-8 rounded-lg font-paragraph text-base transition-colors">
-                  Contact Us
-                </button>
-              </a>
-            </div>
-          </motion.div>
-        </div>
-      </section>
       <Footer />
     </div>
   );
