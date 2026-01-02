@@ -334,12 +334,17 @@ export default function HomePage() {
             {/* Large Feature 1 */}
             <div className="md:col-span-7 md:row-span-2 relative group overflow-hidden rounded-none border border-white/10 bg-white/5">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
-              <Image 
-                src="https://static.wixstatic.com/media/415bd8_d91b05bc8f7c45a5a41c7d0afe43e8d6~mv2.png?originWidth=1152&originHeight=768" 
-                alt="AI Cockpit Interface" 
+              <Image
+                src="https://static.wixstatic.com/media/415bd8_374dd1f4e1384c6ea82d0a40e0c7bc38~mv2.jpg"
                 className="w-full h-full object-cover opacity-40 group-hover:scale-105 transition-transform duration-1000"
-              />
+                originWidth={1500}
+                originHeight={1001} />
+              <div className="absolute bottom-0 left-0 p-8 md:p-12 w-full bg-gradient-to-t from-black/90 to-transparent">
 
+                <p className="font-paragraph text-gray-300 max-w-md">
+                  Algorithms that calculate the precise millisecond to switch between electric and fuel propulsion, maximizing battery life and minimizing burn.
+                </p>
+              </div>
             </div>
 
             {/* Feature 2 */}
