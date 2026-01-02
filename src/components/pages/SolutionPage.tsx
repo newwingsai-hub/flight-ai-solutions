@@ -257,7 +257,7 @@ export default function SolutionPage() {
         </div>
       </section>
       {/* Benefits */}
-      <section className="py-16 lg:py-24">
+      <section className="py-16 lg:py-24 bg-secondary-foreground">
         <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
           <motion.div
             className="text-center mb-16"
@@ -292,7 +292,7 @@ export default function SolutionPage() {
         </div>
       </section>
       {/* CTA */}
-      <section className="py-16 lg:py-24">
+      <section className="py-16 lg:py-24 bg-secondary-foreground">
         <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
           <motion.div
             className="bg-gradient-to-br from-primary/10 to-light-blue/10 backdrop-blur-lg rounded-3xl border border-primary/20 p-12 lg:p-16 text-center"
