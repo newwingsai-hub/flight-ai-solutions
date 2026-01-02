@@ -332,7 +332,7 @@ export default function HomePage() {
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
               <Image
                 src="https://static.wixstatic.com/media/415bd8_374dd1f4e1384c6ea82d0a40e0c7bc38~mv2.jpg"
-                className="w-full h-full object-cover opacity-40 group-hover:scale-105 transition-transform duration-1000"
+                className="w-full h-full object-cover opacity-40 group-hover:scale-105 transition-transform duration-1000 rounded-none"
                 originWidth={1500}
                 originHeight={1001} />
               <div className="absolute bottom-0 left-0 p-8 md:p-12 w-full bg-gradient-to-t from-black/90 to-transparent">
