@@ -339,13 +339,7 @@ export default function HomePage() {
                 alt="AI Cockpit Interface" 
                 className="w-full h-full object-cover opacity-40 group-hover:scale-105 transition-transform duration-1000"
               />
-              <div className="absolute bottom-0 left-0 p-8 md:p-12 w-full bg-gradient-to-t from-black/90 to-transparent">
-                <Cpu className="w-10 h-10 text-primary mb-6" />
-                <h3 className="font-heading text-3xl text-white mb-4">Dynamic Energy Blending</h3>
-                <p className="font-paragraph text-gray-300 max-w-md">
-                  Algorithms that calculate the precise millisecond to switch between electric and fuel propulsion, maximizing battery life and minimizing burn.
-                </p>
-              </div>
+
             </div>
 
             {/* Feature 2 */}
