@@ -69,17 +69,10 @@ export default function ContactPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-6">
-              <Mail className="w-4 h-4 text-primary" />
-              <span className="font-paragraph text-sm text-primary">Get in Touch</span>
-            </div>
+
             <h1 className="font-heading text-5xl md:text-7xl font-bold text-foreground mb-6">
               Contact <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-light-blue">Us</span>
             </h1>
-            <p className="font-paragraph text-xl text-foreground/70 leading-relaxed">
-              Have questions about our AI-powered flight optimization solution? Interested in partnerships or
-              collaborations? We'd love to hear from you.
-            </p>
           </motion.div>
         </div>
       </section>
@@ -237,7 +230,6 @@ export default function ContactPage() {
         </div>
       </section>
       {/* Additional Info */}
-
       <Footer />
     </div>
   );
