@@ -318,14 +318,10 @@ export default function HomePage() {
         <div className="max-w-[120rem] mx-auto px-6 lg:px-12 relative z-10">
           <div className="text-center max-w-4xl mx-auto mb-24">
             <AnimatedElement>
-
               <h2 className="font-heading text-5xl md:text-7xl font-bold text-white mb-8">
                 INTELLIGENT <span className="text-primary">AUTONOMY</span>
               </h2>
-              <p className="font-paragraph text-xl text-gray-400">
-                Our proprietary AI doesn't just monitor systems; it actively pilots the energy strategy. 
-                Real-time decisions for routing, power blending, and regeneration.
-              </p>
+
             </AnimatedElement>
           </div>
 
@@ -346,7 +342,6 @@ export default function HomePage() {
                 </p>
               </div>
             </div>
-
             {/* Feature 2 */}
             <div className="md:col-span-5 md:row-span-1 relative group overflow-hidden border border-white/10 bg-white/5 p-8 flex flex-col justify-between">
               <div className="absolute top-0 right-0 p-4 opacity-20">
@@ -360,26 +355,8 @@ export default function HomePage() {
               </div>
 
             </div>
-
             {/* Feature 3 */}
-            <div className="md:col-span-5 md:row-span-1 relative group overflow-hidden border border-white/10 bg-white/5 p-8 flex flex-col justify-between">
-              <div className="absolute top-0 right-0 p-4 opacity-20">
-                <Activity className="w-24 h-24 text-primary" />
-              </div>
-              <div>
-                <h3 className="font-heading text-2xl text-white mb-4">Predictive Maintenance</h3>
-                <p className="font-paragraph text-gray-400 text-sm">
-                  Uses flight data to predict battery degradation and system stress before they become critical failures.
-                </p>
-              </div>
-              <div className="mt-8 flex gap-2">
-                {[1,2,3,4].map(i => (
-                  <div key={i} className="h-1 flex-1 bg-primary/20">
 
-                  </div>
-                ))}
-              </div>
-            </div>
           </div>
 
           <div className="mt-16 text-center">
