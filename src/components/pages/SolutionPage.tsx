@@ -44,10 +44,6 @@ export default function SolutionPage() {
     'Lower carbon emissions by 25-40%',
     'Extend flight range by 20%',
     'Improve battery life and efficiency',
-    'Enhance safety with predictive analytics',
-    'Real-time adaptation to changing conditions',
-    'Seamless integration with existing systems',
-    'Continuous learning and improvement',
   ];
 
   const howItWorks = [
