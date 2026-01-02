@@ -206,13 +206,8 @@ export default function ProblemPage() {
         </div>
       </section>
       {/* Impact Statistics */}
-      <section className="py-16 lg:py-24">
-        <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
-
-        </div>
-      </section>
       {/* Conclusion */}
-      <section className="py-16 lg:py-24">
+      <section className="py-16 lg:py-24 bg-secondary-foreground">
         <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
           <motion.div
             className="max-w-4xl mx-auto text-center"
