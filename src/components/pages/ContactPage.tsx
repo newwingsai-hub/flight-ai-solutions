@@ -98,7 +98,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-heading text-lg font-semibold text-foreground mb-1">Email Us</h3>
-                    <p className="font-paragraph text-base text-foreground/60">contact@flightai.com</p>
+                    <p className="font-paragraph text-base text-foreground/60">newwingsai@gmail.com</p>
                   </div>
                 </div>
 
