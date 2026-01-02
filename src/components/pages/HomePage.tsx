@@ -235,8 +235,7 @@ export default function HomePage() {
               <div className="sticky top-32">
                 <AnimatedElement>
                   <div className="flex items-center gap-3 mb-6">
-                    <TrendingDown className="w-6 h-6 text-destructive" />
-                    <span className="font-mono text-destructive tracking-widest uppercase text-sm">System Critical</span>
+
                   </div>
                   <h2 className="font-heading text-5xl md:text-6xl font-bold text-white mb-8">
                     THE <br />
