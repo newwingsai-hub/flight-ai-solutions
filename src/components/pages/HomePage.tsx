@@ -333,22 +333,17 @@ export default function HomePage() {
             <div className="space-y-32 pt-12 lg:pt-0">
               {[
                 {
-                  val: "5 to 10 %",
+                  val: "1 to 3 %",
                   label: "Fuel Reduction",
-                  desc: "Average fuel savings per flight on hybrid-electric regional routes.",
+                  desc: "Average fuel savings per flight on hybrid-electric regional routes. Expected as soon as ordered and documented.",
                   color: "text-primary"
                 },
                 {
-                  val: "8 to 15 %",
-                  label: "Battery Life Extension",
-                  desc: "Through thermal-aware discharge cycles and optimized regeneration.",
-                  color: "text-light-blue"
-                },
-                {
-                  val: "20 %",
-                  label: "Reduction in CO₂ emissions",
-                  desc: "In simulated stress tests across 10,000 flight hours.",
-                  color: "text-white"
+                  val: "500,000kg",
+                  label: "CO₂ Emissions Removed",
+                  desc: "Per aircraft per year. Plus an additional 1-3% reduction in CO₂ emissions.",
+                  color: "text-light-blue",
+                  subtext: "500,000kg of CO₂ emissions removed per aircraft per year"
                 }
               ].map((stat, idx) => (
                 <AnimatedElement key={idx} className="glass-panel p-12 border-l-4 border-l-primary">
@@ -356,7 +351,10 @@ export default function HomePage() {
                     {stat.val}
                   </div>
                   <h3 className="font-heading text-2xl text-white mb-4 uppercase tracking-widest">{stat.label}</h3>
-
+                  <p className="font-paragraph text-gray-300">{stat.desc}</p>
+                  {stat.subtext && (
+                    <p className="font-paragraph text-sm text-gray-400 mt-4 italic">{stat.subtext}</p>
+                  )}
                 </AnimatedElement>
               ))}
             </div>
@@ -485,31 +483,7 @@ export default function HomePage() {
         </div>
       </section>
       {/* --- CTA SECTION --- */}
-      <section className="relative py-32 overflow-hidden">
-        <div className="absolute inset-0 bg-primary/5" />
-        <div className="absolute inset-0 grid-bg opacity-20" />
-        
-        <div className="max-w-[120rem] mx-auto px-6 lg:px-12 relative z-10">
-          <div className="bg-black/40 backdrop-blur-xl border border-primary/20 p-12 md:p-24 text-center relative overflow-hidden">
-            <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-primary to-transparent" />
-            
-            <AnimatedElement>
-              <h2 className="font-heading text-5xl md:text-7xl font-bold text-white mb-8 tracking-tight text-right">
-                READY FOR <br />
-                TAKEOFF?
-              </h2>
 
-              <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                <Link to="/contact">
-                  <Button className="h-16 px-12 bg-primary text-black hover:bg-primary/90 font-heading text-xl tracking-wide rounded-none justify-end">
-                    Initiate Contact
-                  </Button>
-                </Link>
-              </div>
-            </AnimatedElement>
-          </div>
-        </div>
-      </section>
       <Footer />
     </div>
   );
