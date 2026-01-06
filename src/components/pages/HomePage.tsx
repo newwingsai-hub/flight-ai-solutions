@@ -225,10 +225,10 @@ export default function HomePage() {
         </div>
       </section>
       {/* --- PROBLEM SECTION: "THE TURBULENCE" --- */}
-      <section className="relative py-32 bg-background z-20 clip-diagonal">
+      <section className="relative py-32 bg-background z-20">
         <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-b from-destructive/5 to-transparent pointer-events-none" />
         
-        <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
+        <div className="max-w-[120rem] mx-auto px-6 lg:px-12 w-full">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
             {/* Left: Sticky Title */}
             <div className="lg:col-span-4 relative">
@@ -255,7 +255,7 @@ export default function HomePage() {
             </div>
 
             {/* Right: Problem Cards */}
-            <div className="lg:col-span-8 space-y-8">
+            <div className="lg:col-span-8 space-y-8 w-full">
               {[
                 {
                   title: "Inefficient Power Distribution",
@@ -310,8 +310,8 @@ export default function HomePage() {
         </div>
       </section>
       {/* --- SOLUTION SECTION: "THE CORRECTION" --- */}
-      <section className="relative bg-background py-32 border-t border-white/5">
-        <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
+      <section className="relative bg-background py-32 border-t border-white/5 w-full">
+        <div className="max-w-[120rem] mx-auto px-6 lg:px-12 w-full">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-24">
             
             {/* Sticky Left Content */}
