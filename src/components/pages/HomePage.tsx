@@ -310,51 +310,6 @@ export default function HomePage() {
         </div>
       </section>
       {/* --- SOLUTION SECTION: "THE CORRECTION" --- */}
-      <section className="relative py-32 bg-[#0A0A0A] z-10 -mt-20 pt-48">
-        {/* Background Elements */}
-        <div className="absolute inset-0 grid-bg opacity-30" />
-        <div className="absolute right-0 top-1/4 w-[500px] h-[500px] bg-primary/5 rounded-full blur-[100px]" />
-
-        <div className="max-w-[120rem] mx-auto px-6 lg:px-12 relative z-10">
-          <div className="text-center max-w-4xl mx-auto mb-24">
-            <AnimatedElement>
-              <h2 className="font-heading text-5xl md:text-7xl font-bold text-white mb-8">
-                INTELLIGENT <span className="text-primary">AUTONOMY</span>
-              </h2>
-
-            </AnimatedElement>
-          </div>
-
-          {/* Feature Grid - Asymmetrical */}
-          <div className="grid grid-cols-1 md:grid-cols-12 gap-6 h-auto md:h-[800px]">
-            {/* Large Feature 1 */}
-            <div className="md:col-span-7 md:row-span-2 relative group overflow-hidden rounded-none border border-white/10 bg-white/5">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
-              <Image
-                src="https://static.wixstatic.com/media/415bd8_374dd1f4e1384c6ea82d0a40e0c7bc38~mv2.jpg"
-                className="w-full h-full object-cover opacity-40 group-hover:scale-105 transition-transform duration-1000 rounded-none"
-                originWidth={1500}
-                originHeight={1001} />
-              <div className="absolute bottom-0 left-0 p-8 md:p-12 w-full bg-gradient-to-t from-black/90 to-transparent">
-
-                <p className="font-paragraph text-gray-300 max-w-md">
-                  Algorithms that calculate the precise millisecond to switch between electric and fuel propulsion, maximizing battery life and minimizing burn.
-                </p>
-              </div>
-            </div>
-            {/* Feature 2 */}
-
-            {/* Feature 3 */}
-          </div>
-
-          <div className="mt-16 text-center">
-            <Link to="/solution">
-
-            </Link>
-          </div>
-        </div>
-      </section>
-      {/* --- IMPACT SECTION: STICKY SCROLL --- */}
       <section className="relative bg-background py-32 border-t border-white/5">
         <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-24">
@@ -408,8 +363,127 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      <section className="relative py-32 bg-[#0A0A0A] z-10 -mt-20 pt-48">
+        {/* Background Elements */}
+        <div className="absolute inset-0 grid-bg opacity-30" />
+        <div className="absolute right-0 top-1/4 w-[500px] h-[500px] bg-primary/5 rounded-full blur-[100px]" />
+
+        <div className="max-w-[120rem] mx-auto px-6 lg:px-12 relative z-10">
+          <div className="text-center max-w-4xl mx-auto mb-24">
+            <AnimatedElement>
+              <h2 className="font-heading text-5xl md:text-7xl font-bold text-white mb-8">
+                INTELLIGENT <span className="text-primary">AUTONOMY</span>
+              </h2>
+
+            </AnimatedElement>
+          </div>
+
+          {/* Feature Grid - Asymmetrical */}
+          <div className="grid grid-cols-1 md:grid-cols-12 gap-6 h-auto md:h-[800px]">
+            {/* Large Feature 1 */}
+            <div className="md:col-span-7 md:row-span-2 relative group overflow-hidden rounded-none border border-white/10 bg-white/5">
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
+              <Image
+                src="https://static.wixstatic.com/media/415bd8_374dd1f4e1384c6ea82d0a40e0c7bc38~mv2.jpg"
+                className="w-full h-full object-cover opacity-40 group-hover:scale-105 transition-transform duration-1000 rounded-none"
+                originWidth={1500}
+                originHeight={1001} />
+              <div className="absolute bottom-0 left-0 p-8 md:p-12 w-full bg-gradient-to-t from-black/90 to-transparent">
+
+                <p className="font-paragraph text-gray-300 max-w-md">
+                  Algorithms that calculate the precise millisecond to switch between electric and fuel propulsion, maximizing battery life and minimizing burn.
+                </p>
+              </div>
+            </div>
+            {/* Feature 2 */}
+
+            {/* Feature 3 */}
+          </div>
+
+          <div className="mt-16 text-center">
+            <Link to="/solution">
+
+            </Link>
+          </div>
+        </div>
+      </section>
+      {/* --- IMPACT SECTION: STICKY SCROLL --- */}
       {/* --- MARKET USE CASES: HORIZONTAL SCROLL FEEL --- */}
       {/* --- TEAM TEASER --- */}
+      {/* --- AERION ENGINE SECTION --- */}
+      <section className="relative py-32 overflow-hidden bg-gradient-to-b from-background via-background/80 to-background">
+        <div className="absolute inset-0 grid-bg opacity-10" />
+        <div className="absolute left-0 top-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/10 rounded-full blur-[120px]" />
+        
+        <div className="max-w-[120rem] mx-auto px-6 lg:px-12 relative z-10">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            {/* Left: Graphic/Visual */}
+            <AnimatedElement className="relative h-[500px] lg:h-[600px] flex items-center justify-center">
+              <div className="relative w-full h-full flex items-center justify-center">
+                {/* Animated background elements */}
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <div className="absolute w-80 h-80 bg-primary/20 rounded-full blur-3xl animate-pulse" />
+                  <div className="absolute w-64 h-64 bg-light-blue/10 rounded-full blur-2xl animate-pulse" style={{ animationDelay: '1s' }} />
+                </div>
+                
+                {/* Engine graphic */}
+                <div className="relative z-10 flex items-center justify-center">
+                  <div className="glass-panel p-12 rounded-2xl border border-primary/30 neon-glow">
+                    <Cpu className="w-32 h-32 text-primary animate-[spin_8s_linear_infinite]" />
+                  </div>
+                </div>
+              </div>
+            </AnimatedElement>
+
+            {/* Right: Content */}
+            <AnimatedElement delay={200}>
+              <div>
+                <div className="flex items-center gap-3 mb-6">
+                  <div className="w-1 h-8 bg-primary" />
+                  <span className="font-heading text-sm uppercase tracking-widest text-primary">Introducing</span>
+                </div>
+                
+                <h2 className="font-heading text-5xl md:text-6xl font-bold text-white mb-6 leading-tight">
+                  The <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-light-blue">Aerion</span> Engine
+                </h2>
+                
+                <p className="font-paragraph text-lg text-gray-300 mb-8 leading-relaxed">
+                  Our proprietary AI engine that powers real-time energy optimization for hybrid-electric aircraft. Aerion learns, adapts, and continuously improves flight efficiency with every mission.
+                </p>
+                
+                <div className="space-y-4 mb-12">
+                  {[
+                    "Real-time energy management and predictive optimization",
+                    "Autonomous switching between fuel and battery systems",
+                    "Continuous learning from flight data and conditions"
+                  ].map((feature, idx) => (
+                    <div key={idx} className="flex items-start gap-4">
+                      <div className="w-6 h-6 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0 mt-1">
+                        <div className="w-2 h-2 rounded-full bg-primary" />
+                      </div>
+                      <p className="font-paragraph text-gray-300">{feature}</p>
+                    </div>
+                  ))}
+                </div>
+                
+                <div className="flex flex-col sm:flex-row gap-4">
+                  <Link to="/contact">
+                    <Button className="h-14 px-8 bg-primary text-black hover:bg-primary/90 rounded-none border-r-4 border-white font-heading text-lg tracking-wide transition-all hover:translate-x-1 w-full sm:w-auto">
+                      Get Started
+                      <ArrowRight className="ml-2 w-5 h-5" />
+                    </Button>
+                  </Link>
+                  <Link to="/solution">
+                    <Button variant="outline" className="h-14 px-8 border-2 border-primary/50 text-primary hover:bg-primary/10 rounded-none font-heading text-lg tracking-wide transition-all w-full sm:w-auto">
+                      Learn More
+                    </Button>
+                  </Link>
+                </div>
+              </div>
+            </AnimatedElement>
+          </div>
+        </div>
+      </section>
       {/* --- CTA SECTION --- */}
       <section className="relative py-32 overflow-hidden">
         <div className="absolute inset-0 bg-primary/5" />
@@ -420,14 +494,14 @@ export default function HomePage() {
             <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-primary to-transparent" />
             
             <AnimatedElement>
-              <h2 className="font-heading text-5xl md:text-7xl font-bold text-white mb-8 tracking-tight">
+              <h2 className="font-heading text-5xl md:text-7xl font-bold text-white mb-8 tracking-tight text-right">
                 READY FOR <br />
                 TAKEOFF?
               </h2>
 
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
                 <Link to="/contact">
-                  <Button className="h-16 px-12 bg-primary text-black hover:bg-primary/90 font-heading text-xl tracking-wide rounded-none">
+                  <Button className="h-16 px-12 bg-primary text-black hover:bg-primary/90 font-heading text-xl tracking-wide rounded-none justify-end">
                     Initiate Contact
                   </Button>
                 </Link>
