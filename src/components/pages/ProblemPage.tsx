@@ -28,7 +28,7 @@ export default function ProblemPage() {
       title: 'Complex Energy Management',
       description:
         'Pilots and operators face difficult real-time decisions about when to use electric power versus conventional fuel. Manual management is prone to errors and suboptimal choices.',
-      impact: 'Manual energy management increases the risk of human error',
+      impact: 'Manual energy management increases the risk of human error. In aviation, these small changes have large impacts.',
       color: 'text-secondary',
       bgColor: 'bg-secondary/20',
     },
