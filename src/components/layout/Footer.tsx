@@ -56,7 +56,7 @@ export default function Footer() {
             <div className="space-y-4">
               <p className="font-paragraph text-sm text-foreground/60">
                 <Mail className="inline w-4 h-4 mr-2" />
-                newwingsai@gmail.com
+                jadentanks@gmail.com
               </p>
               <div className="flex gap-4">
 
