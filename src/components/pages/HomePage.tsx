@@ -335,7 +335,7 @@ export default function HomePage() {
                 {
                   val: "1 to 3 %",
                   label: "Fuel Reduction",
-                  desc: "Average fuel savings per flight on hybrid-electric regional routes. Expected as soon as ordered and documented.",
+                  desc: "Average fuel savings per flight on any route you choose. Expected as soon as ordered and documented gains.",
                   color: "text-primary"
                 },
                 {
@@ -343,7 +343,7 @@ export default function HomePage() {
                   label: "CO₂ Emissions Removed",
                   desc: "Per aircraft per year. Plus an additional 1-3% reduction in CO₂ emissions.",
                   color: "text-light-blue",
-                  subtext: "500,000kg of CO₂ emissions removed per aircraft per year"
+                  
                 }
               ].map((stat, idx) => (
                 <AnimatedElement key={idx} className="glass-panel p-12 border-l-4 border-l-primary">
