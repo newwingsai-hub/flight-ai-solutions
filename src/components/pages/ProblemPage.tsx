@@ -9,7 +9,7 @@ export default function ProblemPage() {
       icon: DollarSign,
       title: 'Rising Fuel Costs',
       description:
-        'Aviation fuel prices continue to climb, putting pressure on operators to reduce consumption. Inefficient energy management in hybrid aircraft leads to unnecessary fuel burn and higher operational costs.',
+        'Aviation fuel prices continue to climb, putting pressure on operators to reduce consumption. Inefficient energy management in aircraft leads to unnecessary fuel burn and higher operational costs.',
       impact: 'Fuel and energy costs account for ~20–30% of airline operating expenses',
       color: 'text-destructive',
       bgColor: 'bg-destructive/20',
@@ -18,7 +18,7 @@ export default function ProblemPage() {
       icon: Cloud,
       title: 'Carbon Emissions',
       description:
-        'The aviation industry contributes significantly to global emissions. Without optimized energy usage, hybrid-electric aircraft fail to deliver their full environmental potential.',
+        'The aviation industry contributes significantly to global emissions. Without optimized energy usage, humanity's aircraft fail to deliver their full environmental potential.',
       impact: 'Aviation contributes 2–3% of global CO₂ emissions',
       color: 'text-light-blue',
       bgColor: 'bg-light-blue/20',
