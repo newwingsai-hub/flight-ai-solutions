@@ -17,7 +17,7 @@ export default function SolutionPage() {
       icon: Zap,
       title: 'Smart Energy Distribution',
       description:
-        'Intelligently decides when to use electric power, when to supplement with fuel, and how to recover energy through regenerative systems.',
+        'Intelligently decides when to use electric power, when to supplement with fuel, and how to manage systems effectively and energy efficiently.',
       color: 'text-light-blue',
       bgColor: 'bg-light-blue/20',
     },
@@ -25,7 +25,7 @@ export default function SolutionPage() {
       icon: Route,
       title: 'Dynamic Route Optimization',
       description:
-        'Continuously adjusts flight paths, altitudes, and speeds based on weather, air traffic, and energy efficiency.',
+        'Continuously adjusts flight paths, altitudes, and speeds based on weather, air traffic, and energy efficiency. Fed raw data from piezoelectric sensors.',
       color: 'text-secondary',
       bgColor: 'bg-secondary/20',
     },
@@ -33,16 +33,16 @@ export default function SolutionPage() {
       icon: Database,
       title: 'Real Flight Data Training',
       description:
-        'Trained on actual flight data from hybrid-electric aircraft to ensure accurate, reliable, and safe optimization.',
+        'Trained on actual flight data from aircraft to ensure accurate, reliable, and safe optimization.',
       color: 'text-dark-green',
       bgColor: 'bg-dark-green/20',
     },
   ];
 
   const benefits = [
-    'Reduce fuel consumption by up to 15%',
-    'Lower carbon emissions by 10-20%',
-    'Extend flight range by 5-10%',
+    'Reduce fuel expenses by up to $150,000 per aircraft annually',
+    'Lower carbon emissions by 1-3%',
+    'Decrease flight time and delays',
     'Improve battery life and efficiency',
   ];
 
