@@ -239,11 +239,11 @@ export default function HomePage() {
                   </div>
                   <h2 className="font-heading text-5xl md:text-6xl font-bold text-white mb-8">
                     THE <br />
-                    <span className="text-white/30">ENERGY</span> <br />
+                    <span className="text-white/30">POWER</span> <br />
                     GAP
                   </h2>
                   <p className="font-paragraph text-lg text-gray-400 leading-relaxed mb-8">
-                    Hybrid aviation promises a greener future, but current energy management systems are failing to deliver. The complexity gap is costing millions.
+                    Hybrid aviation promises a greener future, but current power management systems are failing to deliver. The complexity gap is costing millions.
                   </p>
                   <Link to="/problem">
                     <Button variant="link" className="text-destructive p-0 h-auto font-heading text-lg hover:text-destructive/80">
@@ -259,18 +259,18 @@ export default function HomePage() {
               {[
                 {
                   title: "Inefficient Power Distribution",
-                  desc: "Manual switching between fuel and battery is imprecise, leading to wasted energy reserves and suboptimal flight profiles.",
-                  stat: "10–15%",
-                  statLabel: "Energy Inefficiency Potential",
-                  disclaimer: "Estimated efficiency losses in hybrid-electric aircraft due to non-optimized energy management.",
+                  desc: "Airline efficiency is around 75% to 80% of the fuel's potential energy is lost as waste heat and other inefficiencies and is actually 20-25% efficient.",
+                  stat: "20-25%",
+                  statLabel: "Actual Efficiency Rate",
+                  disclaimer: "Airline engines operate at significantly lower efficiency due to waste heat and system losses.",
                   icon: Zap
                 },
                 {
                   title: "Escalating Operational Costs",
-                  desc: "Without predictive modeling, fuel consumption remains high even in hybrid aircraft, negating the potential ROI of electrification.",
-                  stat: "$500K–1.5M",
-                  statLabel: "Annual Excess Operating Costs (Mid-Size Fleet)",
-                  disclaimer: "Estimate varies based on fleet size, fuel prices, and flight hours.",
+                  desc: "The global industry faces substantial operational expenses. Current systems struggle to optimize fuel consumption even in hybrid aircraft.",
+                  stat: "$914B",
+                  statLabel: "Global Industry Operating Costs (2024)",
+                  disclaimer: "Total operating expenses across the global airline industry for 2024.",
                   icon: BarChart3
                 },
                 {
