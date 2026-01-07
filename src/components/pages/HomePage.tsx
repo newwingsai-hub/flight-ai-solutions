@@ -423,14 +423,13 @@ export default function HomePage() {
                 </h2>
                 
                 <p className="font-paragraph text-lg text-gray-300 mb-8 leading-relaxed">
-                  Our proprietary AI engine that powers real-time energy optimization for hybrid-electric aircraft. Aerion learns, adapts, and continuously improves flight efficiency with every mission.
+                  Our proprietary AI engine that powers real-time energy optimization to be the next-generation of an aviation companion. Aerion adapts flight efficiency with every mission.
                 </p>
                 
                 <div className="space-y-4 mb-12">
                   {[
-                    "Real-time energy management and predictive optimization",
-                    "Autonomous switching between fuel and battery systems",
-                    "Continuous learning from flight data and conditions"
+                    "Real-time optimization in propulsion and fuel management",
+                    "Continuous learning from flight data and aircraft conditions"
                   ].map((feature, idx) => (
                     <div key={idx} className="flex items-start gap-4">
                       <div className="w-6 h-6 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0 mt-1">
