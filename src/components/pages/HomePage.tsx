@@ -352,9 +352,6 @@ export default function HomePage() {
                   </div>
                   <h3 className="font-heading text-2xl text-white mb-4 uppercase tracking-widest">{stat.label}</h3>
                   <p className="font-paragraph text-gray-300">{stat.desc}</p>
-                  {stat.subtext && (
-                    <p className="font-paragraph text-sm text-gray-400 mt-4 italic">{stat.subtext}</p>
-                  )}
                 </AnimatedElement>
               ))}
             </div>
