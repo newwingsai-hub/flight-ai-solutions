@@ -37,7 +37,7 @@ export default function ProblemPage() {
       title: 'Battery Limitations',
       description:
         'Current battery technology has limited capacity and charging infrastructure. Poor energy recovery and inefficient power distribution reduce flight range and performance.',
-      impact: 'Range limitations of 15–30% compared to conventional aircraft',
+      impact: 'Aircraft operators cannot see the cost-benefit of using next-generation technology.',
       color: 'text-primary',
       bgColor: 'bg-primary/20',
     },
@@ -46,7 +46,7 @@ export default function ProblemPage() {
       title: 'Performance Trade-offs',
       description:
         'Balancing speed, range, payload, and energy efficiency requires constant optimization. Without AI assistance, operators struggle to find the optimal balance for each flight.',
-      impact: 'Efficiency losses of up to 10–20% without optimized energy management',
+      impact: 'Efficiency losses can scale exponentially without optimized energy management',
       color: 'text-dark-green',
       bgColor: 'bg-dark-green/20',
     },
