@@ -267,7 +267,7 @@ export default function HomePage() {
                 },
                 {
                   title: "Escalating Operational Costs",
-                  desc: "The global industry faces substantial operational expenses. Current systems struggle to optimize fuel consumption even in hybrid aircraft.",
+                  desc: "The global industry faces substantial operational expenses. Current systems struggle to optimize fuel consumption to reduce these expenses.",
                   stat: "$914B",
                   statLabel: "Global Industry Operating Costs (2024)",
                   disclaimer: "Total operating expenses across the global airline industry for 2024.",
