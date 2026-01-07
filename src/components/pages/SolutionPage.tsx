@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Brain, Zap, Route, TrendingDown, Database, Shield, CheckCircle } from 'lucide-react';
+import { Brain, Zap, Route, TrendingDown, Database, Shield, CheckCircle, Award } from 'lucide-react';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 
@@ -237,6 +237,51 @@ export default function SolutionPage() {
                 <p className="font-paragraph text-sm text-foreground/80">{benefit}</p>
               </motion.div>
             ))}
+          </div>
+        </div>
+      </section>
+      {/* Sponsors & Partnerships */}
+      <section className="py-16 lg:py-24 bg-gradient-to-b from-blue-900/5 to-background">
+        <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
+          <motion.div
+            className="text-center mb-16"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+          >
+            <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground mb-6">
+              Our <span className="text-primary">Sponsors & Partnerships</span>
+            </h2>
+          </motion.div>
+
+          <div className="grid lg:grid-cols-1 gap-12">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8 }}
+              className="bg-foreground/5 backdrop-blur-lg rounded-2xl border border-primary/10 p-8 lg:p-12 hover:border-primary/30 transition-all"
+            >
+              <div className="flex flex-col lg:flex-row gap-8 items-start">
+                <div className="flex-shrink-0">
+                  <div className="w-24 h-24 rounded-xl bg-primary/20 flex items-center justify-center">
+                    <Award className="w-12 h-12 text-primary" />
+                  </div>
+                </div>
+                <div className="flex-1">
+                  <h3 className="font-heading text-2xl lg:text-3xl font-bold text-foreground mb-2">
+                    Associate Professor Dr. Astin Lee
+                  </h3>
+                  <p className="font-paragraph text-lg text-primary font-semibold mb-4">
+                    Consultant & Interventional Cardiologist
+                  </p>
+                  <p className="font-paragraph text-base lg:text-lg text-foreground/70 leading-relaxed">
+                    We are proud to announce the sponsorship of Associate Professor Dr. Astin Lee, a renowned Consultant & Interventional Cardiologist. Dr. Lee's expertise in advanced technology, data-driven decision-making, and human safety, where real-time monitoring is crucial for optimal outcomes, perfectly aligns with NewWings' mission to enhance flight efficiency, safety, and sustainability. His support underscores confidence in our product's technical rigor and its potential for significant long-term positive impact.
+                  </p>
+                </div>
+              </div>
+            </motion.div>
           </div>
         </div>
       </section>
