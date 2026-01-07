@@ -262,7 +262,7 @@ export default function HomePage() {
                   desc: "The effiency of an airline is around 20-25% because 75-80% of the fuel;s potential energy is wasted as heat and other ineffiencies.",
                   stat: "20-25%",
                   statLabel: "Actual Efficiency Rate",
-                  disclaimer: "Airline engines operate at significantly lower efficiency due to waste heat and system losses.",
+                  disclaimer: "Airline engines operate at significantly lower efficiency.",
                   icon: Zap
                 },
                 {
