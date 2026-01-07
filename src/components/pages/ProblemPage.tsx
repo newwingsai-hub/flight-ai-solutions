@@ -106,9 +106,7 @@ export default function ProblemPage() {
                 technology promises reduced emissions and lower costs, the reality is far more complex.
               </p>
               <p className="font-paragraph text-lg text-foreground/70 mb-6 leading-relaxed">
-                Pilots must constantly decide: Should I use battery power or fuel? When should I recharge? What's the
-                most efficient altitude and route? These split-second decisions directly impact fuel consumption,
-                emissions, range, and safety.
+                These types of aircraft are typically expensive to manufacture, hard to apply in the infrastructure we have for aircraft today, and the manufactureres themselves cannot make them affordable enough to keep up with the demand of the aviation industry for more sustainable alternatives.
               </p>
               <p className="font-paragraph text-lg text-foreground/70 leading-relaxed">
                 Without intelligent optimization, hybrid aircraft fail to deliver on their promise of sustainability and
