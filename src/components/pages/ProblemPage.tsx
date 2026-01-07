@@ -18,7 +18,7 @@ export default function ProblemPage() {
       icon: Cloud,
       title: 'Carbon Emissions',
       description:
-        'The aviation industry contributes significantly to global emissions. Without optimized energy usage, the aircraft of humanity fail to deliver their full environmental potential.',
+        "The aviation industry contributes significantly to global emissions. Without optimized energy usage, humanity's aircraft fail to deliver their full environmental potential.",
       impact: 'Aviation contributes 2–3% of global CO₂ emissions',
       color: 'text-light-blue',
       bgColor: 'bg-light-blue/20',
