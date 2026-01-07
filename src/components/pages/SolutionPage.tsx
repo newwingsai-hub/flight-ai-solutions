@@ -132,6 +132,45 @@ export default function SolutionPage() {
         </div>
       </section>
       {/* How It Works */}
+      <section className="py-16 lg:py-24 bg-secondary-foreground">
+        <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
+          <motion.div
+            className="text-center mb-16"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+          >
+            <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground mb-6">
+              How It <span className="text-primary">Works</span>
+            </h2>
+          </motion.div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {howItWorks.map((item, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: index * 0.1 }}
+                className="relative"
+              >
+                <div className="bg-foreground/5 backdrop-blur-lg rounded-2xl border border-primary/10 p-8 hover:border-primary/30 transition-all h-full">
+                  <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-primary/20 mb-6">
+                    <span className="font-heading text-lg font-bold text-primary">{item.step}</span>
+                  </div>
+                  <h3 className="font-heading text-xl font-semibold text-foreground mb-4">{item.title}</h3>
+                  <p className="font-paragraph text-base text-foreground/70 leading-relaxed">{item.description}</p>
+                </div>
+                {index < howItWorks.length - 1 && (
+                  <div className="hidden lg:block absolute top-1/2 -right-4 w-8 h-0.5 bg-gradient-to-r from-primary to-transparent" />
+                )}
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
       {/* Technology Stack */}
       <section className="py-16 lg:py-24 bg-gradient-to-b from-blue-900/5 to-background">
         <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
