@@ -78,12 +78,12 @@ export default function ProblemPage() {
               The Challenge in
               <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-destructive to-primary">
-                Hybrid Aviation
+                Next-Generation Aviation
               </span>
             </h1>
             <p className="font-paragraph text-xl text-foreground/70 leading-relaxed">
               Electric and hybrid-electric aircraft represent the future of sustainable aviation, but they face
-              significant energy management challenges that prevent them from reaching their full potential.
+              significant energy management challenges, and not to mention their exorbitant prices, that prevent them from reaching their full potential.
             </p>
           </motion.div>
         </div>
