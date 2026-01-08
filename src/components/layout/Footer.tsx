@@ -53,15 +53,7 @@ export default function Footer() {
 
           <div>
             <h3 className="font-heading text-base font-semibold text-foreground mb-4">Connect</h3>
-            <div className="space-y-4">
-              <p className="font-paragraph text-sm text-foreground/60">
-                <Mail className="inline w-4 h-4 mr-2" />
-                jadenkstan@gmail.com
-              </p>
-              <div className="flex gap-4">
 
-              </div>
-            </div>
           </div>
           {/* Contact & Social */}
         </div>
