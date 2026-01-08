@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Linkedin, Mail, Github } from 'lucide-react';
 import { Image } from '@/components/ui/image';
+import { Button } from '@/components/ui/button';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -53,7 +54,11 @@ export default function Footer() {
 
           <div>
             <h3 className="font-heading text-base font-semibold text-foreground mb-4">Connect</h3>
-
+            <Link to="/contact">
+              <Button className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-lg font-paragraph">
+                Contact Us
+              </Button>
+            </Link>
           </div>
           {/* Contact & Social */}
         </div>

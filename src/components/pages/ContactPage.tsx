@@ -79,36 +79,11 @@ export default function ContactPage() {
       {/* Contact Form Section */}
       <section className="py-16 lg:py-24">
         <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
-          <div className="grid lg:grid-cols-2 gap-16">
-            {/* Contact Info */}
-            <motion.div
-              initial={{ opacity: 0, x: -30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8 }}
-            >
-              <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-6">
-                Contact <span className="text-primary">Us</span>
-              </h2>
-
-              <div className="space-y-6">
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-primary/20 flex items-center justify-center flex-shrink-0">
-                    <Mail className="w-6 h-6 text-primary" />
-                  </div>
-                  <div>
-                    <h3 className="font-heading text-lg font-semibold text-foreground mb-1">Email Us</h3>
-
-                  </div>
-                </div>
-
-              </div>
-            </motion.div>
-
+          <div className="max-w-2xl mx-auto">
             {/* Contact Form */}
             <motion.div
-              initial={{ opacity: 0, x: 30 }}
-              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
@@ -129,7 +104,7 @@ export default function ContactPage() {
                   </Button>
                 </div>
               ) : (
-                <form onSubmit={handleSubmit} className="bg-foreground/5 backdrop-blur-lg rounded-2xl border border-primary/10 p-8">
+                <form onSubmit={handleSubmit} className="bg-foreground/5 backdrop-blur-lg rounded-2xl border border-primary/10 p-8 w-full">
                   <div className="space-y-6">
                     <div>
                       <Label htmlFor="fullName" className="font-paragraph text-sm text-foreground mb-2 block">
