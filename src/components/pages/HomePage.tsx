@@ -188,7 +188,7 @@ export default function HomePage() {
             </AnimatedElement>
 
             <AnimatedElement delay={200}>
-              <p className="font-paragraph text-xl md:text-2xl text-gray-400 max-w-2xl mb-12 leading-relaxed border-l-2 border-primary/30 pl-6">{"AI that masters the complexity of hybrid-electric aviation. Real-time energy management for a sustainable sky."}</p>
+              <p className="font-paragraph text-xl md:text-2xl text-gray-400 max-w-2xl mb-12 leading-relaxed border-l-2 border-primary/30 pl-6">{"Powering flight smarter, faster, further, cleaner, better. For you and generations to come."}</p>
             </AnimatedElement>
 
             <AnimatedElement delay={300}>
@@ -459,7 +459,6 @@ export default function HomePage() {
         </div>
       </section>
       {/* --- CTA SECTION --- */}
-
       <Footer />
     </div>
   );
