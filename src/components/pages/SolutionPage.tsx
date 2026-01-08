@@ -9,7 +9,7 @@ export default function SolutionPage() {
       icon: Brain,
       title: 'AI-Powered Decision Making',
       description:
-        'Our machine learning algorithms analyze thousands of variables in real-time to make optimal energy management decisions.',
+        'Our machine learning algorithm analyze thousands of variables in real-time to make optimal energy management decisions.',
       color: 'text-primary',
       bgColor: 'bg-primary/20',
     },
