@@ -185,8 +185,8 @@ export default function SolutionPage() {
                 Built on <span className="text-primary">Real Flight Data</span>
               </h2>
               <p className="font-paragraph text-lg text-foreground/70 mb-6 leading-relaxed">
-                Our AI models are trained on thousands of hours of actual flight data from hybrid-electric aircraft,
-                ensuring accuracy and reliability in real-world conditions.
+                Our AI model Aerion is trained on thousands of hours of actual flight data from aircraft,
+                so they are accurate and reliable in real-world conditions. 
               </p>
 
               <div className="flex items-start gap-3 mb-4">
