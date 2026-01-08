@@ -51,7 +51,7 @@ export default function SolutionPage() {
       step: '01',
       title: 'Data Collection',
       description:
-        'The system continuously collects data from aircraft sensors, weather systems, air traffic control, and flight plans.',
+        'The system continuously collects data from aircraft sensors, weather systems, air traffic control, and flight plans. The most important of these sensors are the piezoelectric sensors we installed in the wings.',
     },
     {
       step: '02',
